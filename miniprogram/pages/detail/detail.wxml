@@ -1,0 +1,8 @@
+<!--aboutme.wxml-->
+<view class="warp">
+<view class="title">{{info.title}}</view>
+<view class="cTime">{{info.cTime}}</view>
+<view class="img"><image src="{{info.img}}" class="in-img" background-size="cover" mode="scaleToFill"></image></view>
+<view class="content">{{info.content}}</view>
+  
+</view>
